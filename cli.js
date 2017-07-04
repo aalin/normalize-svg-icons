@@ -47,5 +47,5 @@ if (argv.json) {
 }
 
 function svgFile(pathStr) {
-  return `<svg width="100%" viewBox="0 0 100 100" preserveAspectRatio="xMidYMid slice"><path d="${pathStr}"></path></svg>`
+  return `<svg width="100%" viewBox="0 0 100 100" preserveAspectRatio="xMidYMid slice"><path fill="#000000" stroke-width="0" d="${pathStr}"></path></svg>`
 }
