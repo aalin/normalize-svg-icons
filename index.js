@@ -53,7 +53,8 @@ function center(path) {
     path = path.translate((100 - max.x) / 2.0, 0);
   }
 
-  return path.translate(-50, -50);
+  // return path.translate(-50, -50);
+  return path;
 }
 
 function normalize(path) {
